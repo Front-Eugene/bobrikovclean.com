@@ -25,7 +25,7 @@
 }
 
 .callback-btn {
-    width: 200px;
+    width: 100%;
     padding: 10px 0;
     margin-top: 15px;
     font-size: 20px;
@@ -35,6 +35,10 @@
     text-transform: uppercase;
     color: #fff;
     background: #1279be;
+}
+
+.footer-form button {
+    padding: 10px 35px;;
 }
 
 body {
@@ -310,7 +314,7 @@ details p {
 }
 
 footer {
-    padding: 50px 100px;
+    padding: 10px 100px 50px 100px;
     color: #fff;
     background: #1a282f;
 }
@@ -356,6 +360,11 @@ footer h3 {
     .link-img {
         width: 40px;
         margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .call-btn {
+        margin-left: 10px;
     }
 
     .screen-social {
@@ -403,10 +412,6 @@ footer h3 {
 
     .footer-form button {
         width: 300px;
-    }
-
-    .callback-btn {
-        width: 100%;
     }
 
     .btn-wrap {
@@ -484,7 +489,7 @@ footer h3 {
     }
 
     footer {
-        padding: 20px 10px;
+        padding: 10px;
     }
 
     .tg-form {
@@ -494,5 +499,14 @@ footer h3 {
 
     footer form {
         margin: 0 auto;
+    }
+
+    .contact-links {
+        margin: 10px 0;
+        justify-content: space-around;
+    }
+
+    .gallery-btn {
+        margin: 20px auto 0 auto;
     }
 }
