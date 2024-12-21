@@ -18,6 +18,7 @@
 
 .window-show {
     opacity: 1;
+    z-index: 999;
 }
 
 .window-wrap div {
