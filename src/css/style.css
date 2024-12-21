@@ -3,6 +3,34 @@
     box-sizing: border-box;
 }
 
+.window-wrap {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    z-index: -1;
+    background: #000000ad;
+}
+
+.window-show {
+    z-index: 999;
+}
+
+.window-wrap div {
+    width: 300px;
+    padding: 20px;
+    background: #1a282f;
+    color: #fff;
+}
+
+.window-wrap p {
+    text-align: center;
+}
+
 a {
     position: relative !important;
 }
@@ -104,7 +132,7 @@ header {
     top: 0;
     left: 0;
     margin-top: 150px;
-    z-index: 999;
+    z-index: 888;
 }
 
 nav {
