@@ -3,6 +3,20 @@
     box-sizing: border-box;
 }
 
+a {
+    position: relative !important;
+}
+
+a span {
+    font-size: 20px;
+    color: #000;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
 .tg-form {
     padding: 20px;
     border-radius: 5px;
@@ -131,6 +145,7 @@ nav ul {
 }
 
 .screen-social a {
+    color: #fff;
     text-decoration: none;
 }
 
@@ -284,6 +299,7 @@ nav ul {
 
 .company img {
     width: 40%;
+    height: 300px;
 }
 
 .faq {
@@ -508,5 +524,10 @@ footer h3 {
 
     .gallery-btn {
         margin: 20px auto 0 auto;
+    }
+
+    a span {
+        bottom: 20%;
+        left: 35%;
     }
 }
