@@ -12,12 +12,12 @@
     align-items: center;
     justify-content: space-around;
     display: flex;
-    z-index: -1;
+    opacity: 0;
     background: #000000ad;
 }
 
 .window-show {
-    z-index: 999;
+    opacity: 1;
 }
 
 .window-wrap div {
