@@ -51,11 +51,14 @@ document.querySelectorAll('.tg-form').forEach(function (form) {
                 currentForm.phone.value = '';
                 form.setAttribute('disabled', '');
 
-                windowShow.classList.add('window-show')
+                // window.location.href = 'src/pages/thanks.html';
+                window.location.href = 'https://front-eugene.github.io/src/pagesthanks.html';
 
-                setTimeout(function () {
-                    windowShow.classList.remove('window-show');
-                }, 2000);
+                // windowShow.classList.add('window-show')
+
+                // setTimeout(function () {
+                //     windowShow.classList.remove('window-show');
+                // }, 2000);
 
                 // let noBtn = form.querySelector('.click-btn');
                 // noBtn.addEventListener('click', function () {
