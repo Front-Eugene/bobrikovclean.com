@@ -52,7 +52,7 @@ document.querySelectorAll('.tg-form').forEach(function (form) {
                 form.setAttribute('disabled', '');
 
                 // window.location.href = 'src/pages/thanks.html';
-                window.location.href = 'https://front-eugene.github.io/src/pagesthanks.html';
+                window.location.href = 'https://front-eugene.github.io/bobrikovclean.com/src/pages/thanks.html';
 
                 // windowShow.classList.add('window-show')
 
